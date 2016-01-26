@@ -1,0 +1,35 @@
+<!doctype html>
+<!--
+  Material Design for Micrograce
+-->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <title>MGiot</title>
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+	<script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+	<link rel="import" href="bower_components/paper-input/paper-input.html">
+	<link rel="import" href="bower_components/iron-form/iron-form.html">
+	<link rel="import" href="bower_components/paper-button/paper-button.html">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	
+    <style>
+    </style>
+  </head>
+  <body>
+	<div id="login_page">
+		<form is="iron-form" id="form" method="post" action="/form/handler">
+			<paper-input label="username or email" required auto-validate error-message="enter username" type="email"></paper-input>
+			<paper-input label="password" required auto-validate error-message="enter password" type="password"></paper-input>
+			<paper-button raised onclick="submitForm()">Submit</paper-button>
+		</form>
+	</div>
+  </body>
+  <!--<script src="js/microgracecore.js"></script>-->
+  <script src="js/app.js"></script> 
+</html>
+

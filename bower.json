@@ -1,0 +1,27 @@
+{
+  "name": "microui",
+  "authors": [
+    "bharadwaj.turlapati <tbj.name@gmail.com>"
+  ],
+  "description": "mvp for micrograce project",
+  "main": "index.html",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "keywords": [
+    "iot"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#1.2.0"
+  },
+  "resolutions": {
+    "polymer": "^1.0.0"
+  }
+}
